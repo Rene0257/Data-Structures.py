@@ -1,0 +1,12 @@
+a = ["The Forest", "The Alchemist", "Mahabharat"]
+print("First element:", a[0])
+print("Last element:", a[-1])
+print("Slicing:", a[1:3])
+a.append("Norwegian woods")
+print("The appended list:", a)
+a.remove("The Forest")
+print("The new list:", a)
+a.sort()
+print("The sorted list:", a)
+a.reverse()
+print("The reversed list:", a)
